@@ -16,7 +16,9 @@ def print_subtitles(subtitles):
         se = ""
         if sub.get("season") is not None and sub.get("episode") is not None:
             se = f" S{sub['season']:02d}E{sub['episode']:02d}"
+        release = sub.get("release", "-")
         print(
             f"{i}. [{sub.get('language', 'Unknown')}] {sub['season_ep']}{se} - "
-            f"{sub['translator']} - FPS: {sub['fps']} - Indirmeler: {sub['downloads']}"
+            f"{sub['translator']} - FPS: {sub['fps']} - Release: {release} "
+            f"- Indirmeler: {sub['downloads']}"
         )

@@ -1,4 +1,4 @@
-# TurkceAltyazi.org Scrapper
+# TurkceAltyazi.org Scraper
 
 Bu proje, `turkcealtyazi.org` uzerinden film/dizi altyazisi aramak ve indirmek icin terminal tabanli bir aractir.
 
@@ -16,7 +16,7 @@ Bu proje, `turkcealtyazi.org` uzerinden film/dizi altyazisi aramak ve indirmek i
 1. Python 3.8+ kurulu olmali.
 2. Proje klasorune girin:
    ```bash
-   cd scrapper
+   cd scraper
    ```
 3. Bagimliliklari yukleyin:
    ```bash
@@ -29,6 +29,12 @@ Scripti calistirin:
 
 ```bash
 python main.py
+```
+
+Opsiyonel mini arayuz:
+
+```bash
+python ui.py
 ```
 
 Uygulama sirasiyla su adimlari sorar:

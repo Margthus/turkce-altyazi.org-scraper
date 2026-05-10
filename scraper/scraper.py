@@ -321,6 +321,8 @@ class SubtitleScraper:
             fps = row.find("div", class_="alfps")
             downloads = row.find("div", class_="alindirme")
             translator = row.find("div", class_="alcevirmen")
+            ripdiv = row.find("div", class_="ripdiv")
+            release = ripdiv.get_text(" ", strip=True) if ripdiv else "-"
 
             subtitles.append(
                 {
@@ -335,6 +337,7 @@ class SubtitleScraper:
                     "cd": cd_text,
                     "season": row_season,
                     "episode": row_episode,
+                    "release": release,
                     "language": lang_label,
                     "language_code": lang_code,
                     "url": full_link,
