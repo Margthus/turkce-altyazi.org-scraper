@@ -1,2 +1,2 @@
-# turk-ealtyazi.org-scrapper
+# turkce-altyazi.org-scrapper
 TurkceAltyazi.org için akıllı arama, Türkçe/İngilizce filtreleme, sezon-bölüm seçimi ve toplu indirme destekli altyazı indirici.
