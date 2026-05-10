@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+
+# Local debug/test artifacts
+scrapper/*_sample.html
