@@ -4,3 +4,4 @@ __pycache__/
 # Local debug/test artifacts
 scraper/*_sample.html
 scraper/downloads/
+ 
