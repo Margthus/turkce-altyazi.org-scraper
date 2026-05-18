@@ -65,7 +65,7 @@ Bu secimde `From` dizisinin `S04E02` icin filtrelenen altyazilar toplu indirilir
 
 ## Notlar
 
-- Arac egitim ve kisisel kullanim amaclidir.
+- Arac kisisel kullanim amaclidir.
 - Site kurallarina ve telif kosullarina uyun.
 - Site HTML yapisi degisirse selector uyarisi verebilir; bu durumda parser guncellenmelidir.
 
